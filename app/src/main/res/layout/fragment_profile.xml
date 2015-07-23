@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" tools:context="richa.osahub.com.vaccikaranapp.Profile"
+    >
+   <!-- <shape android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <gradient
+           android:angle="0"
+            android:centerX="0.4"
+            android:centerY="0.5"
+            android:endColor="#ffff444d"
+            android:gradientRadius="90"
+            android:startColor="#ff332eff"
+            android:type="linear"
+
+            android:useLevel= "true" />
+
+    </shape>
+-->
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Richa"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:gravity="bottom|left"
+        android:textStyle="bold"
+        android:autoText="false"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/name_background"
+        android:padding="10dp"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

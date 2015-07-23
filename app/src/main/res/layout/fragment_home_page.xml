@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="richa.osahub.com.vaccikaranapp.HomePage"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:id="@+id/schedule"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/im"
+        android:scaleType="fitXY"
+        android:layout_marginRight="10dp" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:id="@+id/locator"
+        android:layout_gravity="right|top"
+        android:src="@drawable/locate"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:id="@+id/forum"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/forum"
+        android:scaleType="fitXY"
+        />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:id="@+id/wall"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/wall"
+        android:scaleType="fitXY" />
+
+
+</FrameLayout>
